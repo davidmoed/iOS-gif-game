@@ -5,7 +5,7 @@ We are creating a game like "Apples to Apples" or "What Do You Meme," a card gam
 We are creating this project for our final assignment in our iOS class.
 
 
-### How with it work?
+### How will it work?
 GIF Game will integrate the Giphy and Facebook SDKs to help with functionality and authentication, in addition to connecting to a user's phone contacts to link users to their friends.
 
 The Giphy SDK will allow GIF Game to access a huge library of GIFS that will keep the game fresh, with constantly updating GIFS, and control the tags associated with each GIF that's loaded to ensure that they are appropriate and not too weird.
