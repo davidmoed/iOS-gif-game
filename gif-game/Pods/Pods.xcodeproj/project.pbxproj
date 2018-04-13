@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0208D6BAF1EFD4B64E8F068F37097F /* Pods-gif-gameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25265814DE708ECC13A29FF2EE8551D7 /* Pods-gif-gameUITests-dummy.m */; };
+		291C3FC9C26D97776495A21DA6AD80D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5211C728B40D8226A1AD1154E88719EE /* Pods-gif-gameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755F39EE87AA1B859A7BD535F81146AA /* Pods-gif-gameTests-dummy.m */; };
+		5E3CAE08F1CFC9F6C8D98E0434F244E0 /* Pods-gif-game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C249692A9A49A2149D69BA3E409FD345 /* Pods-gif-game-dummy.m */; };
+		964FD6D09CEF9EC7CAF678DA11816542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C64147BAB17830ECDEE73007C168A1E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76CC37485CB711F2A4363E58C6EC22D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409660A91AEF6FFED591670FB030C03F;
+			remoteInfo = "Pods-gif-game";
+		};
+		D6A9AA68EF56B5D5EB57E2ECD8935ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409660A91AEF6FFED591670FB030C03F;
+			remoteInfo = "Pods-gif-game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104BE55D6A627A38B0A4C228E1C67295 /* Pods-gif-gameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gif-gameUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1D898F5F982CBDBC3B659374D3133D62 /* Pods-gif-game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gif-game.debug.xcconfig"; sourceTree = "<group>"; };
+		222EC9B997F9BC56D5234B34DA16B93A /* Pods-gif-gameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gif-gameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25265814DE708ECC13A29FF2EE8551D7 /* Pods-gif-gameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gif-gameUITests-dummy.m"; sourceTree = "<group>"; };
+		25DFC7D6B31AB853235EBC81A44BAA96 /* Pods-gif-gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gif-gameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D990E82D319BDD52339A9F4F0431272 /* Pods-gif-game-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gif-game-resources.sh"; sourceTree = "<group>"; };
+		3636C964BD19CA08DA983BF01383AAC3 /* Pods-gif-gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gif-gameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D1569E649B946AFD1F3DD19A841A0B2 /* Pods-gif-game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gif-game.release.xcconfig"; sourceTree = "<group>"; };
+		517AD73A47951CD0ADC00EFB9F31853E /* libPods-gif-game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-gif-game.a"; path = "libPods-gif-game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558851C54E6C3F5002AFEEE936F813B0 /* libPods-gif-gameUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-gif-gameUITests.a"; path = "libPods-gif-gameUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A40BE1DBF5B369257DD456C2946C110 /* Pods-gif-game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gif-game-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		755F39EE87AA1B859A7BD535F81146AA /* Pods-gif-gameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gif-gameTests-dummy.m"; sourceTree = "<group>"; };
+		7A5D487D788DD4B46F390FED2842DB82 /* Pods-gif-gameTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gif-gameTests-frameworks.sh"; sourceTree = "<group>"; };
+		8DD187A5483B4D7F45EA140FD6B2AB85 /* Pods-gif-gameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gif-gameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A416343AA9C47F5547724C3F85AE705 /* Pods-gif-game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gif-game-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A64EAF804D07BAC8CF1984E68FB87D38 /* Pods-gif-gameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gif-gameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA9D9EF3C4C37D9811998058B73A76CB /* Pods-gif-gameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gif-gameUITests-resources.sh"; sourceTree = "<group>"; };
+		BB7D7919AE9F80F730DD8DA4C5346045 /* libPods-gif-gameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-gif-gameTests.a"; path = "libPods-gif-gameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C249692A9A49A2149D69BA3E409FD345 /* Pods-gif-game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gif-game-dummy.m"; sourceTree = "<group>"; };
+		C4BB20B026E8FE4890B46FE72258D206 /* Pods-gif-gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gif-gameTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5022B0D3C460E467BCA710731566204 /* Pods-gif-gameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gif-gameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C92E46906A4FA6F327BF3108E24FDAAC /* Pods-gif-game-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gif-game-frameworks.sh"; sourceTree = "<group>"; };
+		DCB7B7E53CD08F4F24D94FCDA2B5F22A /* Pods-gif-gameTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gif-gameTests-resources.sh"; sourceTree = "<group>"; };
+		EA197D862B4737931D8A93C7520502BA /* Pods-gif-gameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gif-gameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F83CD44E7D20291486A9AB27168011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291C3FC9C26D97776495A21DA6AD80D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E82DDF18ED4617CE43B3D1DAE93B2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64147BAB17830ECDEE73007C168A1E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B063FC70A385DC8DFA13D13542BF611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964FD6D09CEF9EC7CAF678DA11816542 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE1A513C23989DAAB1490447ACFBA2D /* Pods-gif-gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A64EAF804D07BAC8CF1984E68FB87D38 /* Pods-gif-gameUITests-acknowledgements.markdown */,
+				C5022B0D3C460E467BCA710731566204 /* Pods-gif-gameUITests-acknowledgements.plist */,
+				25265814DE708ECC13A29FF2EE8551D7 /* Pods-gif-gameUITests-dummy.m */,
+				104BE55D6A627A38B0A4C228E1C67295 /* Pods-gif-gameUITests-frameworks.sh */,
+				AA9D9EF3C4C37D9811998058B73A76CB /* Pods-gif-gameUITests-resources.sh */,
+				222EC9B997F9BC56D5234B34DA16B93A /* Pods-gif-gameUITests.debug.xcconfig */,
+				3636C964BD19CA08DA983BF01383AAC3 /* Pods-gif-gameUITests.release.xcconfig */,
+			);
+			name = "Pods-gif-gameUITests";
+			path = "Target Support Files/Pods-gif-gameUITests";
+			sourceTree = "<group>";
+		};
+		6F0CCEFA51D71D2211C1E35448301063 /* Pods-gif-game */ = {
+			isa = PBXGroup;
+			children = (
+				9A416343AA9C47F5547724C3F85AE705 /* Pods-gif-game-acknowledgements.markdown */,
+				5A40BE1DBF5B369257DD456C2946C110 /* Pods-gif-game-acknowledgements.plist */,
+				C249692A9A49A2149D69BA3E409FD345 /* Pods-gif-game-dummy.m */,
+				C92E46906A4FA6F327BF3108E24FDAAC /* Pods-gif-game-frameworks.sh */,
+				2D990E82D319BDD52339A9F4F0431272 /* Pods-gif-game-resources.sh */,
+				1D898F5F982CBDBC3B659374D3133D62 /* Pods-gif-game.debug.xcconfig */,
+				3D1569E649B946AFD1F3DD19A841A0B2 /* Pods-gif-game.release.xcconfig */,
+			);
+			name = "Pods-gif-game";
+			path = "Target Support Files/Pods-gif-game";
+			sourceTree = "<group>";
+		};
+		713D86858459EB6F4FC4F996978B6982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517AD73A47951CD0ADC00EFB9F31853E /* libPods-gif-game.a */,
+				BB7D7919AE9F80F730DD8DA4C5346045 /* libPods-gif-gameTests.a */,
+				558851C54E6C3F5002AFEEE936F813B0 /* libPods-gif-gameUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				713D86858459EB6F4FC4F996978B6982 /* Products */,
+				FD84567E8AD85F9B44EF1349DB2E9CF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EA50567D978E6B15B907F18B4215B80 /* Pods-gif-gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DD187A5483B4D7F45EA140FD6B2AB85 /* Pods-gif-gameTests-acknowledgements.markdown */,
+				EA197D862B4737931D8A93C7520502BA /* Pods-gif-gameTests-acknowledgements.plist */,
+				755F39EE87AA1B859A7BD535F81146AA /* Pods-gif-gameTests-dummy.m */,
+				7A5D487D788DD4B46F390FED2842DB82 /* Pods-gif-gameTests-frameworks.sh */,
+				DCB7B7E53CD08F4F24D94FCDA2B5F22A /* Pods-gif-gameTests-resources.sh */,
+				25DFC7D6B31AB853235EBC81A44BAA96 /* Pods-gif-gameTests.debug.xcconfig */,
+				C4BB20B026E8FE4890B46FE72258D206 /* Pods-gif-gameTests.release.xcconfig */,
+			);
+			name = "Pods-gif-gameTests";
+			path = "Target Support Files/Pods-gif-gameTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD84567E8AD85F9B44EF1349DB2E9CF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0CCEFA51D71D2211C1E35448301063 /* Pods-gif-game */,
+				9EA50567D978E6B15B907F18B4215B80 /* Pods-gif-gameTests */,
+				0FE1A513C23989DAAB1490447ACFBA2D /* Pods-gif-gameUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409660A91AEF6FFED591670FB030C03F /* Pods-gif-game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C935CE1CBF35ED258FD37E431F325DC /* Build configuration list for PBXNativeTarget "Pods-gif-game" */;
+			buildPhases = (
+				AC01707FD90DF006D543D45D0F52B022 /* Sources */,
+				4E82DDF18ED4617CE43B3D1DAE93B2CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-gif-game";
+			productName = "Pods-gif-game";
+			productReference = 517AD73A47951CD0ADC00EFB9F31853E /* libPods-gif-game.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		64E4AA524CE8AAB4F0FBE192FEDAD937 /* Pods-gif-gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953310A3BC087999083681604C36DDD1 /* Build configuration list for PBXNativeTarget "Pods-gif-gameUITests" */;
+			buildPhases = (
+				918E3BBF298C4FAB5402DEFC553D958D /* Sources */,
+				5B063FC70A385DC8DFA13D13542BF611 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA35274FBB86D42B3B05FF39E5F937D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-gif-gameUITests";
+			productName = "Pods-gif-gameUITests";
+			productReference = 558851C54E6C3F5002AFEEE936F813B0 /* libPods-gif-gameUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8558428757B0C083634E3186FB60708 /* Pods-gif-gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90392C151B27942F64E5EE90F090C517 /* Build configuration list for PBXNativeTarget "Pods-gif-gameTests" */;
+			buildPhases = (
+				464E78CD524328D972AFE4714F39B923 /* Sources */,
+				29F83CD44E7D20291486A9AB27168011 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E681FDEAC696F3664F748A7B386FE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-gif-gameTests";
+			productName = "Pods-gif-gameTests";
+			productReference = BB7D7919AE9F80F730DD8DA4C5346045 /* libPods-gif-gameTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 713D86858459EB6F4FC4F996978B6982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409660A91AEF6FFED591670FB030C03F /* Pods-gif-game */,
+				B8558428757B0C083634E3186FB60708 /* Pods-gif-gameTests */,
+				64E4AA524CE8AAB4F0FBE192FEDAD937 /* Pods-gif-gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464E78CD524328D972AFE4714F39B923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5211C728B40D8226A1AD1154E88719EE /* Pods-gif-gameTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918E3BBF298C4FAB5402DEFC553D958D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0208D6BAF1EFD4B64E8F068F37097F /* Pods-gif-gameUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC01707FD90DF006D543D45D0F52B022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3CAE08F1CFC9F6C8D98E0434F244E0 /* Pods-gif-game-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31E681FDEAC696F3664F748A7B386FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-gif-game";
+			target = 409660A91AEF6FFED591670FB030C03F /* Pods-gif-game */;
+			targetProxy = 76CC37485CB711F2A4363E58C6EC22D0 /* PBXContainerItemProxy */;
+		};
+		EA35274FBB86D42B3B05FF39E5F937D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-gif-game";
+			target = 409660A91AEF6FFED591670FB030C03F /* Pods-gif-game */;
+			targetProxy = D6A9AA68EF56B5D5EB57E2ECD8935ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08DDF641547A6008CA8F79BC4F3B08E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222EC9B997F9BC56D5234B34DA16B93A /* Pods-gif-gameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5217BC382313A090E361D8C755E45E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BB20B026E8FE4890B46FE72258D206 /* Pods-gif-gameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607C0F21F5771A25294FBF57943D694E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3636C964BD19CA08DA983BF01383AAC3 /* Pods-gif-gameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6BEA8269B2039F10E86C0D706889C352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1569E649B946AFD1F3DD19A841A0B2 /* Pods-gif-game.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDAE4BBD0F0DA2D769EACD47FCA074BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DFC7D6B31AB853235EBC81A44BAA96 /* Pods-gif-gameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3095F36203FA0505F10C70916E81F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D898F5F982CBDBC3B659374D3133D62 /* Pods-gif-game.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C935CE1CBF35ED258FD37E431F325DC /* Build configuration list for PBXNativeTarget "Pods-gif-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3095F36203FA0505F10C70916E81F58 /* Debug */,
+				6BEA8269B2039F10E86C0D706889C352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90392C151B27942F64E5EE90F090C517 /* Build configuration list for PBXNativeTarget "Pods-gif-gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAE4BBD0F0DA2D769EACD47FCA074BE /* Debug */,
+				5217BC382313A090E361D8C755E45E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953310A3BC087999083681604C36DDD1 /* Build configuration list for PBXNativeTarget "Pods-gif-gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08DDF641547A6008CA8F79BC4F3B08E4 /* Debug */,
+				607C0F21F5771A25294FBF57943D694E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

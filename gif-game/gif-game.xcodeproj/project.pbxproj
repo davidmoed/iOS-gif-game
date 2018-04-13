@@ -15,6 +15,10 @@
 		3E16291E2081081000359E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16291D2081081000359E6D /* main.m */; };
 		3E1629282081081000359E6D /* gif_gameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1629272081081000359E6D /* gif_gameTests.m */; };
 		3E1629332081081000359E6D /* gif_gameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1629322081081000359E6D /* gif_gameUITests.m */; };
+		59651935A2119A0019CF44DC /* libPods-gif-game.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A6B2F4D478EF8779F9A45 /* libPods-gif-game.a */; };
+		694A160BA8A204FFD98B640B /* libPods-gif-gameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 596DE42D9D6404955C0DC543 /* libPods-gif-gameTests.a */; };
+		B385E3934AD795AA16075A46 /* libPods-gif-gameUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBC336D2D3F96B097046069 /* libPods-gif-gameUITests.a */; };
+		DB50076020810C1200EB4561 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB50075F20810C1200EB4561 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21256838135523D0BB1F2043 /* Pods-gif-gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-gameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gif-gameUITests/Pods-gif-gameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3E16290B2081080900359E6D /* gif-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gif-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E16290E2081080900359E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E16290F2081080900359E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		3E16292E2081081000359E6D /* gif-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gif-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1629322081081000359E6D /* gif_gameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gif_gameUITests.m; sourceTree = "<group>"; };
 		3E1629342081081000359E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436C3DB02EA3569F0FA13608 /* Pods-gif-gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-gameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gif-gameTests/Pods-gif-gameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BBC336D2D3F96B097046069 /* libPods-gif-gameUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gif-gameUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		596DE42D9D6404955C0DC543 /* libPods-gif-gameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gif-gameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C804B51F1211ED13B34209 /* Pods-gif-game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gif-game/Pods-gif-game.debug.xcconfig"; sourceTree = "<group>"; };
+		64FFAA234718325E024A71A1 /* Pods-gif-gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-gameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gif-gameTests/Pods-gif-gameTests.release.xcconfig"; sourceTree = "<group>"; };
+		69B71311D74E80D7AE83DBE0 /* Pods-gif-gameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-gameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gif-gameUITests/Pods-gif-gameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E441F4A9F5E7126840B89BA /* Pods-gif-game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-game.release.xcconfig"; path = "Pods/Target Support Files/Pods-gif-game/Pods-gif-game.release.xcconfig"; sourceTree = "<group>"; };
+		DB50075F20810C1200EB4561 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F96A6B2F4D478EF8779F9A45 /* libPods-gif-game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gif-game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59651935A2119A0019CF44DC /* libPods-gif-game.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694A160BA8A204FFD98B640B /* libPods-gif-gameTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B385E3934AD795AA16075A46 /* libPods-gif-gameUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				3E1629262081081000359E6D /* gif-gameTests */,
 				3E1629312081081000359E6D /* gif-gameUITests */,
 				3E16290C2081080900359E6D /* Products */,
+				5C40328416B0A5ED94760C08 /* Pods */,
+				7DC8F8D229E845662945630C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +128,7 @@
 				3E1629172081081000359E6D /* Assets.xcassets */,
 				3E1629192081081000359E6D /* LaunchScreen.storyboard */,
 				3E16291C2081081000359E6D /* Info.plist */,
+				DB50075F20810C1200EB4561 /* GoogleService-Info.plist */,
 				3E16291D2081081000359E6D /* main.m */,
 			);
 			path = "gif-game";
@@ -132,6 +152,29 @@
 			path = "gif-gameUITests";
 			sourceTree = "<group>";
 		};
+		5C40328416B0A5ED94760C08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59C804B51F1211ED13B34209 /* Pods-gif-game.debug.xcconfig */,
+				9E441F4A9F5E7126840B89BA /* Pods-gif-game.release.xcconfig */,
+				436C3DB02EA3569F0FA13608 /* Pods-gif-gameTests.debug.xcconfig */,
+				64FFAA234718325E024A71A1 /* Pods-gif-gameTests.release.xcconfig */,
+				69B71311D74E80D7AE83DBE0 /* Pods-gif-gameUITests.debug.xcconfig */,
+				21256838135523D0BB1F2043 /* Pods-gif-gameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DC8F8D229E845662945630C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F96A6B2F4D478EF8779F9A45 /* libPods-gif-game.a */,
+				596DE42D9D6404955C0DC543 /* libPods-gif-gameTests.a */,
+				4BBC336D2D3F96B097046069 /* libPods-gif-gameUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E1629372081081000359E6D /* Build configuration list for PBXNativeTarget "gif-game" */;
 			buildPhases = (
+				6B85209694A918673D882DD8 /* [CP] Check Pods Manifest.lock */,
 				3E1629072081080900359E6D /* Sources */,
 				3E1629082081080900359E6D /* Frameworks */,
 				3E1629092081080900359E6D /* Resources */,
@@ -156,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E16293A2081081000359E6D /* Build configuration list for PBXNativeTarget "gif-gameTests" */;
 			buildPhases = (
+				299E785610FCA293D7E53245 /* [CP] Check Pods Manifest.lock */,
 				3E16291F2081081000359E6D /* Sources */,
 				3E1629202081081000359E6D /* Frameworks */,
 				3E1629212081081000359E6D /* Resources */,
@@ -174,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E16293D2081081000359E6D /* Build configuration list for PBXNativeTarget "gif-gameUITests" */;
 			buildPhases = (
+				273FAC0163CCBE56F7DC06B9 /* [CP] Check Pods Manifest.lock */,
 				3E16292A2081081000359E6D /* Sources */,
 				3E16292B2081081000359E6D /* Frameworks */,
 				3E16292C2081081000359E6D /* Resources */,
@@ -236,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E16291B2081081000359E6D /* LaunchScreen.storyboard in Resources */,
+				DB50076020810C1200EB4561 /* GoogleService-Info.plist in Resources */,
 				3E1629182081081000359E6D /* Assets.xcassets in Resources */,
 				3E1629162081080900359E6D /* Main.storyboard in Resources */,
 			);
@@ -256,6 +303,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		273FAC0163CCBE56F7DC06B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gif-gameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		299E785610FCA293D7E53245 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gif-gameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B85209694A918673D882DD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gif-game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E1629072081080900359E6D /* Sources */ = {
@@ -431,14 +535,12 @@
 		};
 		3E1629382081081000359E6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C804B51F1211ED13B34209 /* Pods-gif-game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "gif-game/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyu.gif-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +549,12 @@
 		};
 		3E1629392081081000359E6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E441F4A9F5E7126840B89BA /* Pods-gif-game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "gif-game/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyu.gif-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +563,12 @@
 		};
 		3E16293B2081081000359E6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436C3DB02EA3569F0FA13608 /* Pods-gif-gameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "gif-gameTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyu.gif-gameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,15 +578,12 @@
 		};
 		3E16293C2081081000359E6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FFAA234718325E024A71A1 /* Pods-gif-gameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "gif-gameTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyu.gif-gameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,14 +593,11 @@
 		};
 		3E16293E2081081000359E6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B71311D74E80D7AE83DBE0 /* Pods-gif-gameUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "gif-gameUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyu.gif-gameUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +607,11 @@
 		};
 		3E16293F2081081000359E6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21256838135523D0BB1F2043 /* Pods-gif-gameUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "gif-gameUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyu.gif-gameUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
