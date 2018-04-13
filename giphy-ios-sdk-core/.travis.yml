@@ -1,0 +1,12 @@
+branches:
+  only:
+    - master
+language: objective-c
+os: osx
+osx_image: xcode8.3
+script: 
+    - set -o pipefail
+    - xcodebuild clean build test -project GiphyCoreSDK.xcodeproj -scheme "GiphyCoreSDK iOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk iphonesimulator -destination "OS=10.0,name=iPhone 7"
+    - xcodebuild clean build test -project GiphyCoreSDK.xcodeproj -scheme "GiphyCoreSDK tvOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk appletvsimulator -destination "OS=10.0,name=Apple TV 1080p" 
+    - xcodebuild clean build test -project GiphyCoreSDK.xcodeproj -scheme "GiphyCoreSDK OSX" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk macosx -destination "platform=OS X" 
+#    - xcodebuild clean build test -project GiphyCoreSDK.xcodeproj -scheme "GiphyCoreSDK watchOS" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -sdk watchsimulator -destination "OS=3.2"

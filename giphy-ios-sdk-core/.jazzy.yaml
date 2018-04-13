@@ -1,0 +1,48 @@
+clean: true
+author: Giphy
+author_url: https://www.giphy.com
+copyright: "© Copyright 2017 [Giphy](https://www.giphy.com/). All rights reserved."
+github_url: https://github.com/Giphy/giphy-ios-sdk-core
+github_file_prefix: https://github.com/Giphy/giphy-ios-sdk-core/tree/master
+output: build/doc
+docset_path: ../docset
+hide_documentation_coverage: true
+skip_undocumented: true
+custom_categories:
+    - name: Giphy Core SDK
+      children:
+        - GPHClient
+        - GPHAbstractClient
+    - name: Models
+      children:
+        - GPHMedia
+        - GPHUser
+        - GPHImage
+        - GPHImages
+        - GPHCategory
+        - GPHTermSuggestion
+    - name: Types
+      children:
+        - GPHMediaType
+        - GPHRenditionType
+        - GPHLanguageType
+        - GPHRatingType
+        - GPHRequestType
+    - name: Networking
+      children:
+        - GPHCompletionHandler
+        - GPHJSONCompletionHandler
+        - GPHJSONObject
+    - name: Response Models
+      children:
+        - GPHResponse
+        - GPHMeta
+        - GPHPagination
+        - GPHMediaResponse
+        - GPHListMediaResponse
+        - GPHListCategoryResponse
+        - GPHListTermSuggestionResponse
+    - name: Errors
+      children:
+        - GPHJSONMappingError
+        - GPHHTTPError
