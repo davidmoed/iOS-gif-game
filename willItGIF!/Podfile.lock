@@ -1,0 +1,16 @@
+PODS:
+  - GiphyCoreSDK (1.2.0)
+
+DEPENDENCIES:
+  - GiphyCoreSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GiphyCoreSDK
+
+SPEC CHECKSUMS:
+  GiphyCoreSDK: 1278bfc2dbdc9f1b2b1703ee70224f515b9530a6
+
+PODFILE CHECKSUM: c3b9c9641e95cf92e31a708645aa7e142e240c23
+
+COCOAPODS: 1.5.0
